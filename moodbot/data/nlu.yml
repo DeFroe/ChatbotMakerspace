@@ -16,6 +16,9 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
+    - nice to see you
+    - yo
+    - gm
 
 - intent: goodbye
   examples: |
@@ -29,6 +32,7 @@ nlu:
     - see you around
     - bye bye
     - see you later
+    - gn
 
 - intent: affirm
   examples: |
@@ -38,6 +42,18 @@ nlu:
     - of course
     - that sounds good
     - correct
+    - yes, I do
+    - oh yes
+    - I agree
+    - I do
+    - I would say yes
+    - yes, I rather do
+    - quite, yes
+    - Thanks
+    - that's ok
+    - si 
+    - understood
+    - clear
 
 - intent: deny
   examples: |
@@ -48,6 +64,15 @@ nlu:
     - don't like that
     - no way
     - not really
+    - not so much 
+    - not very 
+    - rather not 
+    - not quite 
+    - never 
+    - never never
+    - I doubt
+    - I don't really know
+    don't know 
 
 - intent: mood_great
   examples: |
@@ -89,3 +114,21 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: tell_name
+  examples: 
+    - I am [Marco](name)
+    - Call me [Patrick](name)
+    - It's [Aline](name)
+    - I'm [Irene](name)
+    - My name is [Marco](name)
+    - People call me [Marco](name)
+    - I am called [Donald](name)
+    - [Jennifer](name)
+    - They call me [Eugene](name)
+    - Call me [Max](name)
+    - My friends call me [Winni](name)
+    - [Hanna](name)
+    - [Sarah](name)
+    - [Tim](name)
+    - [John](name)
